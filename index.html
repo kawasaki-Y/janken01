@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>じゃんけんアプリ</title>
+  <link rel="stylesheet" href="/index.css"> <!-- CSSファイルをリンク -->
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <h1>じゃんけんアプリ</h1>
+    </header>
+
+    <p><img id="janken" src="jan.png" width="auto" height="100" alt="Player Choice"></p>
+
+    <button onclick="R_Click(0)">グー</button>
+    <button onclick="R_Click(1)">チョキ</button>
+    <button onclick="R_Click(2)">パー</button>
+
+    <p><img id="janken2" src="jan.png" width="auto" height="100" alt="Opponent Choice"></p>
+
+    <div id="jan1"></div>
+    <div id="jan2"></div>
+  </div>
+
+  <script src="/js/test.js">
+
+  </script> <!-- JavaScriptファイルをリンク -->
+</body>
+
+</html>
